@@ -255,7 +255,12 @@ table.topic-list .main-link .link-bottom-line{
 	background: linear-gradient(to right,  #d2691e 0%,#0088cc 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2691e', endColorstr='#0088cc',GradientType=1 );
 }
-
+.category-list tbody .category h3 a[href]{
+	color:#ffffff;
+}
+.alert {
+    margin-bottom: 50px;
+}
 
 
 
