@@ -5,11 +5,16 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #02050f;
-	font-family: 'Montserrat';
 	font-weight: normal;
     font-style: normal;
-	color:#88abc2;
 	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+    color: #88abc2;
+    font-size: 13px;
+    line-height: 28px;
+}
+body.docked{
+	padding-top: 5.5rem;
 }
 body:after{
 	content: "" !important;
@@ -35,6 +40,18 @@ h1,h2,h3,h4, .title{
     font-style: normal;
 	text-transform: uppercase;
 }
+/* ~~~~~~~~ Default ++ ~~~~~~~~ */
+p{
+	font-family: Montserrat, sans-serif;
+    color: #88abc2;
+    font-size: 13px;
+    line-height: 28px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* ~~~~~~~~ Default -- ~~~~~~~~ */
+
 /* ~~~~~~~~ Header ++ ~~~~~~~~ */
 .d-header{
 	position: relative;
@@ -51,8 +68,6 @@ h1,h2,h3,h4, .title{
 
 /* ~~~~~~~~ Main Outlet ++ ~~~~~~~~ */
 #main-outlet{
-	padding: 0;
-	margin-top:5.8572em;
 	position: relative;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -102,7 +117,7 @@ div.education, .select-kit.dropdown-select-box.period-chooser .period-chooser-he
 	text-transform: uppercase;
 	color:#ffffff;
 	display: block;
-	padding: 18px 30px;
+	padding: 18px 25px;
 	position: relative;
 	background: transparent;
 	-webkit-transition: 0.15s all ease 0s;
@@ -261,8 +276,40 @@ table.topic-list .main-link .link-bottom-line{
 .alert {
     margin-bottom: 50px;
 }
-
-
-
-
 /* ~~~~~~~~ Main Outlet -- ~~~~~~~~ */
+
+/* ~~~~~~~~ Footer ++ ~~~~~~~~ */
+.kronoFooter{
+	margin-top: 2.5rem;
+	position: relative;
+	padding: 3.125rem 0;
+	background: rgba(2,2,5,0.5);
+	-webkit-box-shadow: 0 -1px 1px rgba(136,171,194,0.5);
+	-moz-box-shadow: 0 -1px 1px rgba(136,171,194,0.5);
+	-ms-box-shadow: 0 -1px 1px rgba(136,171,194,0.5);
+	-o-box-shadow: 0 -1px 1px rgba(136,171,194,0.5);
+	box-shadow: 0 -1px 1px rgba(136,171,194,0.5);
+}
+.kronoFooter .row{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+.kronoFooter .row .col-sm-4{
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	position: relative;
+}
+.footerCol h4{
+	color:#ffffff;
+	font-size: 1.3125rem;
+	font-weight: normal;
+}
+/* ~~~~~~~~ Footer -- ~~~~~~~~ */
+
