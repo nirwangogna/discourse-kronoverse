@@ -569,6 +569,9 @@ ol.category-breadcrumb{
 	border: 1px solid #88abc2;
 	padding: 1.875rem;
 }
+.bootbox.modal .modal-footer a.btn-primary{
+	color:#071421;
+}
 /* ~~~~~~~~ Admin Panel Setting -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Login Modules ++ ~~~~~~~~ */
@@ -581,11 +584,11 @@ ol.category-breadcrumb{
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-background: rgba(13,37,61,0.5);
-	-moz-background: rgba(13,37,61,0.5);
-	-ms-background: rgba(13,37,61,0.5);
-	-o-background: rgba(13,37,61,0.5);
-	background: rgba(13,37,61,0.5);
+	-webkit-background: rgba(13,37,61,1);
+	-moz-background: rgba(13,37,61,1);
+	-ms-background: rgba(13,37,61,1);
+	-o-background: rgba(13,37,61,1);
+	background: rgba(13,37,61,1);
 	border: 1px solid #88abc2;
 	padding: 1.875rem;
 }
