@@ -107,9 +107,7 @@ a:visited {
 .btn.btn-primary .d-icon{
 	margin-right:0;
 }
-.boxed.white{
-	background: none;
-}
+
 /* ~~~~~~~~ Default -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Header ++ ~~~~~~~~ */
@@ -267,7 +265,7 @@ div.education, .select-kit.dropdown-select-box.period-chooser .period-chooser-he
 	text-transform: uppercase;
 	color:#ffffff;
 	display: block;
-	padding: 18px 25px;
+	padding: 18px 22px;
 	position: relative;
 	background: transparent;
 	-webkit-transition: 0.15s all ease 0s;
@@ -296,7 +294,7 @@ div.education, .select-kit.dropdown-select-box.period-chooser .period-chooser-he
 }
 .nav-pills>li.active>a{
 	color: #071421;
-    background: #22a1d1;
+    background: #22a1d1 !important;
 	font-weight: bold;
 }
 .nav-pills>li.active>a:after{
@@ -322,7 +320,7 @@ tr:hover{
 	-o-background: rgba(13,37,61,0.8);
 	background: rgba(13,37,61,0.8);
 }
-th, #reply-control .reply-to .composer-action-title .action-title, .admin-controls{
+th, #reply-control .reply-to .composer-action-title .action-title{
 	-webkit-background: rgba(7,20,33,0.5);
 	-moz-background: rgba(7,20,33,0.5);
 	-ms-background: rgba(7,20,33,0.5);
@@ -509,6 +507,25 @@ ol.category-breadcrumb{
 	background:#22a1d1;
 }
 /* ~~~~~~~~ Main Outlet -- ~~~~~~~~ */
+
+/* ~~~~~~~~ Admin Panel Setting ++ ~~~~~~~~ */
+.boxed.white{
+	background: none;
+}
+.alert {
+    margin-bottom: 30px;
+}
+.admin-controls{
+	background-color:#02050f;	
+}
+.admin-controls nav:before, .admin-controls nav:after{
+	display: none;
+}
+.admin-interface #main-outlet{
+	padding: 0;
+}
+
+/* ~~~~~~~~ Admin Panel Setting -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
 .kronoFooter{
