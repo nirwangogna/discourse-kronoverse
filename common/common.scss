@@ -554,6 +554,20 @@ ol.category-breadcrumb{
 .dashboard .section .section-title h2 a, .dashboard-next .section .section-title h2 a{
 	color:#ffffff;
 }
+.bootbox.modal{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-background: rgba(13,37,61,0.5);
+	-moz-background: rgba(13,37,61,0.5);
+	-ms-background: rgba(13,37,61,0.5);
+	-o-background: rgba(13,37,61,0.5);
+	background: rgba(13,37,61,0.5);
+	border: 1px solid #88abc2;
+	padding: 1.875rem;
+}
 /* ~~~~~~~~ Admin Panel Setting -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
