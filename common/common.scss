@@ -89,6 +89,17 @@ a:visited {
 	font-family: 'Xirod';
 	background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/6/63e30e302cbca4fa069dff4c1bde04e3af94afdc.png) no-repeat center center;
 	background-size:cover;
+	padding: 1.375rem 2rem !important;
+	color:#071421;
+	font-size: .875rem !important;
+}
+.btn.btn-primary:hover{
+	background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/3/3dec215cabd7ba5fd7a0cdfaa466f10210b0eeb2.png) no-repeat center center;
+	background-size:cover;
+	color:#071421;
+}
+.btn.btn-primary .d-icon{
+	margin-right:0;
 }
 
 /* ~~~~~~~~ Default -- ~~~~~~~~ */
@@ -101,6 +112,9 @@ a:visited {
 	-ms-background: rgba(4,10,17,0.8);
 	-o-background: rgba(4,10,17,0.8);
 	background: rgba(4,10,17,0.8);
+}
+.d-header .btn.btn-primary{
+	padding: 1rem 1.5rem !important;
 }
 .login-button, button.sign-up-button {
 	  padding: 6px 10px;
