@@ -614,7 +614,58 @@ form td label{
 	-o-background: rgba(2,2,15,0.8);
 	background: rgba(2,2,15,0.8);
 }
-/* ~~~~~~~~ Login Modules -- ~~~~~~~~ */
+/* ~~~~~~~~ -- Login Modules -- ~~~~~~~~ */
+
+/* ~~~~~~~~ ++ Inner Post Styling ++ ~~~~~~~~ */
+.names span a{
+	color:#22a1d1;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+}
+.extra-info-wrapper .topic-link{
+	color:#ffffff;
+}
+nav.post-controls button.create, nav.post-controls button.create .d-icon, .extra-info-wrapper .topic-header-extra .discourse-tags, .extra-info-wrapper .discourse-tag{
+	color:#88abc2 !important;
+}
+nav.post-controls button.d-hover, nav.post-controls button:focus {
+    background: #22a1d1;
+    color:#071421;
+}
+nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon, .extra-info-wrapper .badge-wrapper.bullet span.badge-category, .extra-info-wrapper .badge-wrapper.bar span.badge-category, .extra-info-wrapper .badge-wrapper.none span.badge-category{
+	color:#071421 !important;
+}
+.topic-body{
+	-webkit-box-shadow: 1px 1px 1px rgba(136,171,194,0.5);
+	-moz-box-shadow: 1px 1px 1px rgba(136,171,194,0.5);
+	-ms-box-shadow: 1px 1px 1px rgba(136,171,194,0.5);
+	-o-box-shadow: 1px 1px 1px rgba(136,171,194,0.5);
+	box-shadow: 1px 1px 1px rgba(136,171,194,0.5);
+	-webkit-transition: 0.2s all ease-in 0s;
+	-moz-transition: 0.2s all ease-in 0s;
+	-ms-transition: 0.2s all ease-in 0s;
+	-o-transition: 0.2s all ease-in 0s;
+	transition: 0.2s all ease-in 0s;
+	background-color:#02050f;
+	background-size:100%;
+	border: 1px solid #88abc2;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding: 1.25rem;
+	color:#88abc2;
+}
+.topic-post:hover .topic-body{
+	-webkit-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
+	-moz-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
+	-ms-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
+	-o-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
+	box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
+}
+.topic-avatar{
+	border: 0;
+}
+/* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
 .kronoFooter{
