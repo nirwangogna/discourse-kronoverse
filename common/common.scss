@@ -591,13 +591,16 @@ ol.category-breadcrumb{
 form table tr{
 	background: none !important;
 }
-.modal-inner-container form a, .create-account .disclaimer, button#login-link, button#new-account-link, .modal tr.instructions label{
+.modal-inner-container form a, .create-account .disclaimer, button#login-link, button#new-account-link, .modal tr.instructions label, #login-form a{
 	color:#88abc2;
 }
 .d-modal.create-account .login-form::after, .d-modal.create-account .login-form::before{
 	display: none;
 }
-form td.label{
+form td{
+	padding-left:0 !important;
+}
+form td label{
 	padding-left:0 !important;
 	text-transform: uppercase;
 	color:#ffffff;
