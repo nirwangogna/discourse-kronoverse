@@ -597,6 +597,13 @@ form table tr{
 .d-modal.create-account .login-form::after, .d-modal.create-account .login-form::before{
 	display: none;
 }
+form td.label{
+	padding-left:0;
+	text-transform: uppercase;
+	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+}
 /* ~~~~~~~~ Login Modules -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
