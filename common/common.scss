@@ -530,8 +530,12 @@ ol.category-breadcrumb{
 .admin-interface #main-outlet{
 	padding: 0;
 }
-.admin-customize .themes-list-container .themes-list-item .info{
-	color:#88abc2;
+.admin-customize .themes-list-container .themes-list-item .info, .content-list ul li a{
+	color:#ffffff;
+}
+.admin-customize .themes-list-container .themes-list-item:not(.inactive-indicator):not(.selected):hover, .content-list ul li a:hover{
+	color:#071421;
+	background:#22a1d1;
 }
 /* ~~~~~~~~ Admin Panel Setting -- ~~~~~~~~ */
 
