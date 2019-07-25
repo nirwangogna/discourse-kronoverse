@@ -556,17 +556,15 @@ ol.category-breadcrumb{
 	color:#ffffff;
 }
 .bootbox.modal{
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-background: rgba(13,37,61,1);
-	-moz-background: rgba(13,37,61,1);
-	-ms-background: rgba(13,37,61,1);
-	-o-background: rgba(13,37,61,1);
-	background: rgba(13,37,61,1);
-	border: 1px solid #88abc2;
+	 -webkit-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -moz-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -o-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/4/4d4bf0b….png) no-repeat center center;
+    background-color: #02050f;
+    background-size: 100%;
+    border: 1px solid #88abc2;
 	padding: 1.875rem;
 }
 .bootbox.modal .modal-footer a.btn-primary{
@@ -579,24 +577,25 @@ ol.category-breadcrumb{
 	display: none !important;
 }
 .modal-inner-container{
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-background: rgba(13,37,61,1);
-	-moz-background: rgba(13,37,61,1);
-	-ms-background: rgba(13,37,61,1);
-	-o-background: rgba(13,37,61,1);
-	background: rgba(13,37,61,1);
-	border: 1px solid #88abc2;
+	-webkit-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -moz-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    -o-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
+    background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/4/4d4bf0b….png) no-repeat center center;
+    background-color: #02050f;
+    background-size: 100%;
+    border: 1px solid #88abc2;
 	padding: 1.875rem;
 }
 form table tr{
 	background: none !important;
 }
-.modal-inner-container form a{
+.modal-inner-container form a, .create-account .disclaimer, button#login-link, button#new-account-link, .modal tr.instructions label{
 	color:#88abc2;
+}
+.d-modal.create-account .login-form::after, .d-modal.create-account .login-form::before{
+	display: none;
 }
 /* ~~~~~~~~ Login Modules -- ~~~~~~~~ */
 
