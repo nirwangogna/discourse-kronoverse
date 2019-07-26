@@ -181,6 +181,7 @@ a:visited {
 .d-header #site-logo{
 	height: auto;
 	max-width: 100%;
+	max-height: 100%;
 }
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
@@ -261,6 +262,13 @@ div.menu-links-header .fa, div.menu-links-header a, .select-kit .select-kit-row 
 }
 .composer-popup a.close{
 	color:#5d7382; 
+}
+.notifications ul li a{
+	
+	color:#22a1d1 !important;
+}
+.notifications ul li{
+ font-weight: 600;	
 }
 /* ~~~~~~~~ Header -- ~~~~~~~~ */
 
