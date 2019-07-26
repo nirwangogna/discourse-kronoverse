@@ -1,3 +1,15 @@
+/** Discourse CSS by Nirwan Gogna - nirwangogna@gmail.com **/
+@font-face {
+ font-family: 'Xirod';
+    src: url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.eot');
+    src: url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.eot?#iefix') format('embedded-opentype'),
+        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.woff2') format('woff2'),
+        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.woff') format('woff'),
+        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.ttf') format('truetype'),
+        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.svg#Xirod-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 html{
 	color: #88abc2;
 }
@@ -15,6 +27,10 @@ body{
     color: #88abc2;
     font-size: 13px;
     line-height: 28px;
+}
+body::before {
+  display: none;
+  content: image-urls();
 }
 body.docked{
 	padding-top: 5.5rem;
@@ -113,6 +129,35 @@ a:visited {
 }
 .btn.btn-primary .d-icon{
 	margin-right:0;
+	color:#071421 !important;
+}
+
+.btn.btn-default{
+	font-family: 'Xirod';
+	background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/3/3dec215cabd7ba5fd7a0cdfaa466f10210b0eeb2.png) no-repeat center center;
+	background-size:cover;
+	color:#071421;
+	padding: 1.25rem 1.75rem !important;
+    font-size: 0.75rem !important;
+    max-width: 220px;
+	min-width: 150px;
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+.btn.btn-default:hover{
+	background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/6/63e30e302cbca4fa069dff4c1bde04e3af94afdc.png) no-repeat center center;
+	background-size:cover;
+	color:#071421;
+}
+.btn.btn-default.btn-small{
+	padding: 1rem 1.75rem !important;
+}
+.btn.btn-default.btn-large{
+	padding: 1.375rem 2rem !important;
+}
+.btn.btn-default .d-icon{
+	margin-right:0;
+	color:#071421 !important;
 }
 
 
