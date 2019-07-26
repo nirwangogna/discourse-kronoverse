@@ -1,12 +1,7 @@
 /** Discourse CSS by Nirwan Gogna - nirwangogna@gmail.com **/
 @font-face {
  font-family: 'Xirod';
-    src: url('../assets/fonts/Xirod-Regular.eot');
-    src: url('../assets/fonts/Xirod-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/Xirod-Regular.woff2') format('woff2'),
-        url('../assets/fonts/Xirod-Regular.woff') format('woff'),
-        url('../assets/fonts/Xirod-Regular.ttf') format('truetype'),
-        url('../assets/fonts/Xirod-Regular.svg#Xirod-Regular') format('svg');
+    src: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/f/f1dd1be919b6b9c570367973a2cb9ac8308432b4.eot');
     font-weight: normal;
     font-style: normal;
 }
@@ -159,7 +154,9 @@ a:visited {
 	margin-right:0;
 	color:#071421 !important;
 }
-
+.alert.alert-info{
+	color:#071421 !important;
+}
 
 /* ~~~~~~~~ Default -- ~~~~~~~~ */
 
