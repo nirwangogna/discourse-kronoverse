@@ -179,7 +179,8 @@ a:visited {
 	  padding: 6px 10px;
 }
 .d-header #site-logo{
-	height: 1.25rem;
+	height: auto;
+	max-width: 100%;
 }
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
@@ -785,4 +786,22 @@ ul.socialLinks li + li{
 	background: rgba(2,2,5,1);
 }
 
-/* ~~~~~~~~ Footer -- ~~~~~~~~ */
+/* ~~~~~~~~ -- Footer -- ~~~~~~~~ */
+
+/* ~~~~~~~~ ++ Mobile responsive Setting ++ */
+
+@media screen and (max-width: 850px){
+	.btn.btn-default{
+		min-width:0 !important;
+		background: #22a1d1 !important;
+	}	
+	.btn.btn-primary{
+		min-width:0 !important;
+	}	
+	button#create-topic span {
+		display: none;
+	}
+	.navigation-container ol, .navigation-container ul{
+		margin-bottom: 10px;
+	}
+}
