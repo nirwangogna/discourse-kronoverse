@@ -1,12 +1,12 @@
 /** Discourse CSS by Nirwan Gogna - nirwangogna@gmail.com **/
 @font-face {
  font-family: 'Xirod';
-    src: url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.eot');
-    src: url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.eot?#iefix') format('embedded-opentype'),
-        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.woff2') format('woff2'),
-        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.woff') format('woff'),
-        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.ttf') format('truetype'),
-        url('http://mywebpavilion.com/discourse-kronoverse/assets/fonts/Xirod-Regular.svg#Xirod-Regular') format('svg');
+    src: url('../assets/fonts/Xirod-Regular.eot');
+    src: url('../assets/fonts/Xirod-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Xirod-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Xirod-Regular.woff') format('woff'),
+        url('../assets/fonts/Xirod-Regular.ttf') format('truetype'),
+        url('../assets/fonts/Xirod-Regular.svg#Xirod-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
