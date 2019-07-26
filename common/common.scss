@@ -275,6 +275,9 @@ div.menu-links-header .fa, div.menu-links-header a, .select-kit .select-kit-row 
 /* ~~~~~~~~ Header -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Main Outlet ++ ~~~~~~~~ */
+.widget-button.btn{
+	min-width: 0 !important;
+}
 .top-lists{
 	padding: 1rem 0;
 }
