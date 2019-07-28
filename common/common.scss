@@ -101,7 +101,7 @@ a:visited {
 }
 .btn.btn-primary{
 	font-family: 'Xirod', 'Montserrat', sans-serif;
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send.png) no-repeat center center;
+	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send-active.png) no-repeat center center;
 	background-size:cover;
 	color:#071421;
 	padding: 1.25rem 1.75rem !important;
@@ -112,7 +112,7 @@ a:visited {
 	outline: 0 !important;
 }
 .btn.btn-primary:hover{
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send-active.png) no-repeat center center;
+	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send.png) no-repeat center center;
 	background-size:cover;
 	color:#071421;
 }
@@ -129,7 +129,7 @@ a:visited {
 
 .btn.btn-default{
 	font-family: 'Xirod', 'Montserrat', sans-serif;
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send-active.png) no-repeat center center;
+	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send.png) no-repeat center center;
 	background-size:cover;
 	color:#071421;
 	padding: 1.25rem 1.75rem !important;
@@ -140,7 +140,7 @@ a:visited {
 	outline: 0 !important;
 }
 .btn.btn-default:hover{
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send.png) no-repeat center center;
+	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send-active.png) no-repeat center center;
 	background-size:cover;
 	color:#071421;
 }
@@ -163,7 +163,18 @@ a:visited {
 .alert.alert-info a{
 	color:#22a1d1 !important;
 }
-
+.btn.no-text{
+	min-width: 0 !important;
+	background: #22a1d1 !important;
+	padding: .75rem !important;
+    font-size: 1.25rem !important;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	-ms-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	-o-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
 /* ~~~~~~~~ Default -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Header ++ ~~~~~~~~ */
@@ -724,6 +735,11 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 	color:#88abc2;
 }
 .topic-post:hover .topic-body{
+	-webkit-background:rgba(2,2,15,0.75);
+	-moz-background:rgba(2,2,15,0.75);
+	-ms-background:rgba(2,2,15,0.75);
+	-o-background:rgba(2,2,15,0.75);
+	background:rgba(2,2,15,0.75);
 	-webkit-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
 	-moz-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
 	-ms-box-shadow: 3px 3px 12px rgba(136,171,194,0.5);
@@ -806,15 +822,20 @@ ul.socialLinks li + li{
 }
 
 /* ~~~~~~~~ -- Footer -- ~~~~~~~~ */
-.widget-button.btn.no-text{
-	min-width: 0 !important;
-	background: #22a1d1 !important;
-}
+
 .post-notice{
 	margin-bottom: 15px;
 }
-/* ~~~~~~~~ ++ Mobile responsive Setting ++ */
 
+
+/* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
+.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon{
+	color:#071421;
+}
+/* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
+
+
+/* ~~~~~~~~ ++ Mobile responsive Setting ++ */
 @media screen and (max-width: 850px){
 	.btn.btn-default{
 		min-width:0 !important;
