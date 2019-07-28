@@ -179,7 +179,6 @@ a:visited {
 	  padding: 6px 10px;
 }
 .d-header #site-logo{
-	height: auto;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -426,6 +425,7 @@ th:first-of-type, td:first-of-type{
 }
 .badge-wrapper.bullet span.badge-category{
 	color:#071421;
+	font-family: 'Montserrat', sans-serif;
 }
 .badge-wrapper.bullet span.badge-category-bg, .topic-list td, .discourse-tag, .discourse-tag.simple, .discourse-tag.simple:visited, .discourse-tag.simple:hover, .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification), .topic-list .topic-excerpt{
 	color:#88abc2;
