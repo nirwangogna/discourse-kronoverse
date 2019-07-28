@@ -159,6 +159,17 @@ a:visited {
 	background: #22a1d1;
 	color:#071421;
 }
+.btn-flat{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+.btn-flat:hover .d-button-label, .btn-flat:focus .d-button-label, .btn-flat:hover .d-icon, .btn-flat:focus .d-icon{
+	color:#071421;
+}
 .btn-flat .d-icon {
     color: #b5dceb;
 }
