@@ -100,8 +100,8 @@ a:visited {
 	color: #141d35;
 }
 .btn{
-	padding: 1rem 1.5rem !important;
-    font-size: 0.875rem !important;
+	padding: .875rem 1.25rem !important;
+    font-size: 0.75rem !important;
 	letter-spacing: 0.0625rem;
 	box-shadow: none !important;
 	outline: 0 !important;
@@ -116,8 +116,8 @@ a:visited {
 	-o-box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	font-weight: bold;
-	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 .btn.btn-small{
 	padding: .875rem 1.25rem !important;
