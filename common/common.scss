@@ -129,7 +129,7 @@ a:visited {
 	margin-right:.3125rem;
 	color:#071421 !important;
 }
-.btn.no-text{
+.btn.no-text:not(.d-editor .btn.no-text){
 	min-width: 0 !important;
 	background: #22a1d1 !important;
 	padding: .625rem !important;
