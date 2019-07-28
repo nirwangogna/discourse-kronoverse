@@ -181,6 +181,7 @@ a:visited {
 .d-header #site-logo{
 	max-width: 100%;
 	max-height: 100%;
+	height: auto;
 }
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
@@ -711,8 +712,11 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 	-ms-transition: 0.2s all ease-in 0s;
 	-o-transition: 0.2s all ease-in 0s;
 	transition: 0.2s all ease-in 0s;
-	background-color:#02050f;
-	background-size:100%;
+	-webkit-background:rgba(2,2,15,0.5);
+	-moz-background:rgba(2,2,15,0.5);
+	-ms-background:rgba(2,2,15,0.5);
+	-o-background:rgba(2,2,15,0.5);
+	background:rgba(2,2,15,0.5);
 	border: 1px solid #88abc2;
 	margin-bottom: 20px;
 	margin-left: 20px;
