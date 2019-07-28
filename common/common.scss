@@ -126,34 +126,6 @@ a:visited {
 	margin-right:0;
 	color:#071421 !important;
 }
-
-.btn.btn-default{
-	font-family: 'Xirod', 'Montserrat', sans-serif;
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send.png) no-repeat center center;
-	background-size:cover;
-	color:#071421;
-	padding: 1.25rem 1.75rem !important;
-    font-size: 0.75rem !important;
-    max-width: 220px;
-	min-width: 150px;
-	box-shadow: none !important;
-	outline: 0 !important;
-}
-.btn.btn-default:hover{
-	background: url(http://mywebpavilion.com/discourse-kronoverse/assets/img/button-send-active.png) no-repeat center center;
-	background-size:cover;
-	color:#071421;
-}
-.btn.btn-default.btn-small{
-	padding: 1rem 1.75rem !important;
-}
-.btn.btn-default.btn-large{
-	padding: 1.375rem 2rem !important;
-}
-.btn.btn-default .d-icon{
-	margin-right:0;
-	color:#071421 !important;
-}
 .alert{
 	font-weight: 600;
 }
@@ -836,11 +808,7 @@ ul.socialLinks li + li{
 
 
 /* ~~~~~~~~ ++ Mobile responsive Setting ++ */
-@media screen and (max-width: 850px){
-	.btn.btn-default{
-		min-width:0 !important;
-		background: #22a1d1 !important;
-	}	
+@media screen and (max-width: 850px){	
 	.btn.btn-primary{
 		min-width:0 !important;
 	}	
