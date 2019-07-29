@@ -41,7 +41,7 @@ body:after{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background:url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/bg-smoke.png) no-repeat center 25rem;
+	background:url($bodyBgSmoke) no-repeat center 25rem;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -144,7 +144,7 @@ a:visited {
 }
 .btn.btn-primary{
 	font-family: 'Xirod', 'Montserrat', sans-serif;
-	background: url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/button-send-active.png) no-repeat center center;
+	background: url($btnSendActive) no-repeat center center;
 	background-size:cover;
 	color:#071421;	
 	max-width: 220px;
@@ -153,7 +153,7 @@ a:visited {
 	font-weight: normal;
 }
 .btn.btn-primary:hover{
-	background: url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/button-send.png) no-repeat center center;
+	background: url($btnSend) no-repeat center center;
 	background-size:cover;
 	color:#071421;
 }
@@ -220,7 +220,7 @@ a:visited {
 	-ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	-o-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
-	background:url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/team-bg.png) no-repeat center center;
+	background:url($kronoPattern) no-repeat center center;
 	background-color:#02050f;
 	background-size:100%;
 	border: 1px solid #88abc2;
@@ -651,7 +651,7 @@ ol.category-breadcrumb{
     -ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
     -o-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
     box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
-    background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/4/4d4bf0b….png) no-repeat center center;
+    background: url($kronoPattern) no-repeat center center;
     background-color: #02050f;
     background-size: 100%;
     border: 1px solid #88abc2;
@@ -686,7 +686,7 @@ ol.category-breadcrumb{
 	-ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	-o-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
-	background:url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/team-bg.png) no-repeat center center;
+	background:url($kronoPattern) no-repeat center center;
 	background-color:#02050f;
 	background-size:100%;
 	border: 1px solid #88abc2;
