@@ -435,7 +435,7 @@ tr:hover{
 	-o-background: rgba(13,37,61,0.8);
 	background: rgba(13,37,61,0.8);
 }
-th, #reply-control .reply-to .composer-action-title .action-title{
+th, #reply-control .reply-to .composer-action-title .action-title, .latest-topic-list .table-heading, .top-topic-list .table-heading{
 	-webkit-background: rgba(7,20,33,0.5);
 	-moz-background: rgba(7,20,33,0.5);
 	-ms-background: rgba(7,20,33,0.5);
@@ -818,6 +818,34 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 .title-wrapper .topic-statuses .d-icon{
 	color:#22a1d1;
 }
+.user-main .about .details{
+	background: none;
+	border-bottom: 2px solid #434e6c;
+}
+.user-main .about .secondary dt, .user-secondary-navigation .nav-stacked a, .user-preferences .instructions{
+	color:#88abc2;
+}
+.user-main .about .secondary dd{
+	color:#ffffff;
+}
+.user-main .about .details .primary .primary-textual h1{
+	color:#ffffff;
+}
+.user-main .about .details h1 .d-icon, .categories-list .category h3 .d-icon, .topic-list th button .d-icon, .topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack{
+	color:#22a1d1;
+}
+.modal-header{
+	background: none;
+	border:2px solid #434e6c;
+}
+.alert .close{
+	color:#071421 !important;
+	opacity: 0.7;
+}
+.alert .close{
+	opacity: 1;
+}
+
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
@@ -901,7 +929,7 @@ ul.socialLinks li + li{
 .topic-map .map button .d-icon, .topic-map .map button:hover .d-icon{
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
@@ -914,6 +942,7 @@ ul.socialLinks li + li{
 .select-kit .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc{
 	color:#071421;
 }
+
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
 
