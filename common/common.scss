@@ -624,6 +624,15 @@ ol.category-breadcrumb{
 	border-top:2px solid #434e6c;
 	border-bottom:2px solid #434e6c;
 }
+.admin-controls nav{
+	background: none;
+}
+.admin-controls .nav-pills>li>a{
+	font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    font-size: .875rem;
+}
+
 .admin-controls nav:before, .admin-controls nav:after{
 	display: none;
 }
