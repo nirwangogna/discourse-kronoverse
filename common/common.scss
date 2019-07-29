@@ -619,6 +619,11 @@ ol.category-breadcrumb{
 .settings .setting .desc, .admin-report .header .breadcrumb .report .report-url{
 	color:#88abc2;
 }
+.admin-controls{
+	background: none;
+	border-top:2px; solid #434e6c;
+	border-bottom:2px; solid #434e6c;
+}
 .admin-controls nav:before, .admin-controls nav:after{
 	display: none;
 }
