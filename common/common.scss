@@ -146,7 +146,8 @@ a:visited {
 	font-family: 'Xirod', 'Montserrat', sans-serif;
 	background: url($btnSendActive) no-repeat center center;
 	background-size:cover;
-	color:#071421;	
+	color:#071421;
+	font-size: .75rem;
 	max-width: 220px;
 	min-width: 150px;
 	text-transform: none;
@@ -214,7 +215,7 @@ a:visited {
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
 }
-.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters{
+.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu{
 	-webkit-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	-moz-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
 	-ms-box-shadow: 2px 2px 8px rgba(136,171,194,0.5);
@@ -627,10 +628,14 @@ ol.category-breadcrumb{
 .admin-controls nav{
 	background: none;
 }
+.selected-posts p{
+	color:#071421;
+}
 .admin-controls .nav-pills>li>a{
 	font-family: 'Montserrat', sans-serif;
     text-transform: none;
     font-size: .875rem;
+	font-weight: 600;
 }
 
 .admin-controls nav:before, .admin-controls nav:after{
