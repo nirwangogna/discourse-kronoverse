@@ -11,7 +11,7 @@ html{
 body{
 	text-align: center;
 	padding:0;
-	background:url(https://github.com/nirwangogna/discourse-kronoverse/raw/master/assets/img/main-bg.jpg) no-repeat center center;
+	background:url($bodyBg) no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #02050f;
