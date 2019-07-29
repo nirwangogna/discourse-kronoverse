@@ -387,7 +387,7 @@ div.education, .select-kit.dropdown-select-box.period-chooser .period-chooser-he
 	border-right:10px solid transparent;
 	border-top: 10px solid #22a1d1;
 }
-.nav-pills>li>a:hover {
+.nav-pills>li:hover > a {
     color: #071421;
     background: #88abc2;
 }
@@ -665,11 +665,14 @@ ol.category-breadcrumb{
 }
 .user-main .about.collapsed-info .details{
     border-bottom: 2px solid #434e6c;
-    -webkit-background-color: rgba(2, 6, 17, 0.57);
-	-moz-background-color: rgba(2, 6, 17, 0.57);
-	-ms-background-color: rgba(2, 6, 17, 0.57);
-	-o-background-color: rgba(2, 6, 17, 0.57);
-	background-color: rgba(2, 6, 17, 0.57);
+    background: none;
+}
+.user-primary-navigation{
+	-webkit-background-color: rgba(2,6,17,0.57);
+    -moz-background-color: rgba(2,6,17,0.57);
+    -ms-background-color: rgba(2,6,17,0.57);
+    -o-background-color: rgba(2,6,17,0.57);
+    background-color: rgba(2,6,17,0.57);
 }
 /* ~~~~~~~~ -- Admin Panel Setting -- ~~~~~~~~ */
 
