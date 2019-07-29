@@ -64,7 +64,7 @@ p{
 *, ::after, ::before {
     box-sizing: border-box;
 }
-input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, .d-editor-textarea-wrapper, .select-kit.combo-box .select-kit-header{
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, .d-editor-textarea-wrapper, .select-kit.combo-box .select-kit-header, div.ac-wrap{
 	border:2px solid #434e6c;
     background-color: rgba(2, 6, 17, 0.57);
 	height: 42px !important;
@@ -125,13 +125,8 @@ a:visited {
 	background: #22a1d1;
 	color:#071421;
 }
-.btn.btn-small{
-	padding: .875rem 1.25rem !important;
-}
-.btn.btn-large{
-	padding: 1.375rem 2rem !important;
-}
-.btn .d-icon{
+
+.btn .d-icon:not(.btn.no-text.btn-icon){
 	margin-right:.3125rem;
 	color:#071421 !important;
 }
@@ -147,8 +142,9 @@ a:visited {
 	background: url($btnSend) no-repeat center center;
 	background-size:cover;
 	color:#071421;
+	padding: 1.375rem 2rem !important;
 	font-size: .75rem !important;
-	max-width: 220px;
+	max-width: 240px;
 	min-width: 150px;
 	text-transform: none;
 	font-weight: normal;
@@ -174,6 +170,12 @@ a:visited {
 }
 .btn-flat .d-icon {
     color: #b5dceb;
+}
+.btn.btn-small{
+	padding: .875rem 1.25rem !important;
+}
+.btn.btn-large{
+	padding: 1.375rem 2rem !important;
 }
 /* Button Area -- */
 
@@ -221,7 +223,9 @@ a:visited {
 	background-size:100%;
 	border: 1px solid #88abc2;
 }
-
+#reply-control{
+	background: none;
+}
 ul.d-header-icons > li + li{
 	margin-left: 1.5rem;
 }
@@ -242,7 +246,7 @@ ul.d-header-icons > li + li{
 	color: #071421;
     background: #22a1d1;
 }
-.drop-down-mode .d-header-icons .active .icon .d-icon, div.menu-links-header a:hover .d-icon, div.menu-links-header:focus a .d-icon{
+.drop-down-mode .d-header-icons .active .icon .d-icon, div.menu-links-header a:hover .d-icon, div.menu-links-header:focus a .d-icon, .selected-posts .btn{
 	color: #071421;
 }
 .badge-wrapper.bullet:hover, .discourse-no-touch .sortable:hover{
@@ -566,7 +570,7 @@ ol.category-breadcrumb{
 .select-kit.combo-box.category-chooser .select-kit-row .topic-count, a.topic-featured-link{
 	color:#d3e1eb;
 }
-.select-kit .select-kit-row.is-highlighted .category-desc, .select-kit .select-kit-row:hover .category-desc, .select-kit .select-kit-row.is-highlighted .topic-count, .select-kit .select-kit-row:hover .topic-count, #reply-control .reply-to .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts > *{
+.select-kit .select-kit-row.is-highlighted .category-desc, .select-kit .select-kit-row:hover .category-desc, .select-kit .select-kit-row.is-highlighted .topic-count, .select-kit .select-kit-row:hover .topic-count, #reply-control .reply-to .d-icon{
 	color:#071421 !important;	
 }
 .styleguide .styleguide-menu ul li.styleguide-heading{
@@ -795,7 +799,9 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 .post-notice > .d-icon{
 	color:#071421;
 }
-
+.title-wrapper .topic-statuses .d-icon{
+	color:#22a1d1;
+}
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Footer ++ ~~~~~~~~ */
@@ -878,6 +884,9 @@ ul.socialLinks li + li{
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
 .topic-map .map button .d-icon, .topic-map .map button:hover .d-icon{
 	color:#071421;
+}
+#reply-control .save-or-cancel .cancel{
+	color:#88abc2;
 }
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
