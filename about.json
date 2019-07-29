@@ -3,13 +3,13 @@
   "about_url": "https://github.com/nirwangogna/discourse-kronoverse",
   "license_url": "https://github.com/nirwangogna/discourse-kronoverse/blob/master/LICENSE",
   "authors": "Nirwan Gogna",
-  "theme_version": "1.0",
+  "theme_version": "1.1",
   "assets": {
 	 "bodyBg": "assets/images/main-bg.jpg",
-	 "bodyBgSmoke": "assets/images/bg-smoke.jpg",
+	 "bodyBgSmoke": "assets/images/bg-smoke.png",
 	 "btnSendActive": "assets/images/button-send-active.png",
 	 "btnSend": "assets/images/button-send.png",
-	 "kronoPattern": "assets/images/team-bg.png",
+	 "kronoPattern": "assets/images/team-bg.png"
   },
   "color_schemes": {
 	  "primary": "#b5dceb",
