@@ -9,7 +9,8 @@
 	 "bodyBgSmoke": "assets/images/bg-smoke.png",
 	 "btnSendActive": "assets/images/button-send-active.png",
 	 "btnSend": "assets/images/button-send.png",
-	 "kronoPattern": "assets/images/team-bg.png"
+	 "kronoPattern": "assets/images/team-bg.png",
+	 "fontXirod": "assets/fonts/Xirod-Regular.eot"
   },
   "color_schemes": {
 	  "primary": "#b5dceb",
