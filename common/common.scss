@@ -226,9 +226,12 @@ a:visited {
 #reply-control{
 	background-image: none;
 }
-.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover{
+.discourse-no-touch .btn:hover{
 	background: #0088cc;
     color: #071421;
+}
+.discourse-no-touch .btn .d-icon, .discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon{
+	color: #071421;
 }
 .d-editor-textarea-wrapper textarea{
 	font-family: 'Montserrat', sans-serif;
@@ -895,6 +898,10 @@ ul.socialLinks li + li{
 }
 #reply-control .save-or-cancel .cancel{
 	color:#88abc2;
+}
+.user-secondary-navigation .nav-stacked a.active{
+	background:#22a1d1;
+	color:#071421;
 }
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
