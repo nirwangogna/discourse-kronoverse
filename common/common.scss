@@ -125,8 +125,7 @@ a:visited {
 	background: #22a1d1;
 	color:#071421;
 }
-
-.btn .d-icon:not(.btn.no-text.btn-icon){
+.btn .d-icon{
 	margin-right:.3125rem;
 	color:#071421 !important;
 }
@@ -149,9 +148,15 @@ a:visited {
 	text-transform: none;
 	font-weight: normal;
 }
+.btn.btn-primary:not(.btn-icon-text):hover{
+	background: url($btnSend) no-repeat center center;
+	background-size:cover;
+	color:#071421;
+}
 .btn.btn-default{
 	background: #b5dceb;
 	color:#071421;
+	font-weight: 600;
 }
 .btn.btn-default:hover{
 	background: #22a1d1;
@@ -899,8 +904,14 @@ ul.socialLinks li + li{
 #reply-control .save-or-cancel .cancel{
 	color:#88abc2;
 }
-.user-secondary-navigation .nav-stacked a.active{
+.user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
 	background:#22a1d1;
+	color:#071421;
+}
+.user-preferences .static{
+	color:#ffffff;
+}
+.select-kit .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc{
 	color:#071421;
 }
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
