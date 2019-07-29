@@ -663,7 +663,15 @@ ol.category-breadcrumb{
 .bootbox.modal .modal-footer a.btn-primary{
 	color:#071421;
 }
-/* ~~~~~~~~ Admin Panel Setting -- ~~~~~~~~ */
+.user-main .about.collapsed-info .details{
+    border: 2px solid #434e6c;
+    -webkit-background-color: rgba(2, 6, 17, 0.57);
+	-moz-background-color: rgba(2, 6, 17, 0.57);
+	-ms-background-color: rgba(2, 6, 17, 0.57);
+	-o-background-color: rgba(2, 6, 17, 0.57);
+	background-color: rgba(2, 6, 17, 0.57);
+}
+/* ~~~~~~~~ -- Admin Panel Setting -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Login Modules ++ ~~~~~~~~ */
 .modal-backdrop.in{
