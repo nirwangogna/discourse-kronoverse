@@ -11,7 +11,7 @@ html{
 body{
 	text-align: center;
 	padding:0;
-	background:url(http://mywebpavilion.com/discourse-kronoverse/assets/img/main-bg.jpg) no-repeat center center;
+	background:url(../assets/images/main-bg.jpg) no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #02050f;
@@ -619,9 +619,6 @@ ol.category-breadcrumb{
 .settings .setting .desc, .admin-report .header .breadcrumb .report .report-url{
 	color:#88abc2;
 }
-.admin-controls, .admin-controls nav{
-	background-color:#02050f;	
-}
 .admin-controls nav:before, .admin-controls nav:after{
 	display: none;
 }
@@ -673,6 +670,9 @@ ol.category-breadcrumb{
     -ms-background-color: rgba(2,6,17,0.57);
     -o-background-color: rgba(2,6,17,0.57);
     background-color: rgba(2,6,17,0.57);
+}
+.user-primary-navigation .main-nav{
+	margin-bottom: 0;
 }
 /* ~~~~~~~~ -- Admin Panel Setting -- ~~~~~~~~ */
 
