@@ -848,9 +848,16 @@ button.btn-default[title="Reply"]{
 	padding: 0 !important;
 }
 button.btn-default[title="Reply"] .d-icon{
-	font-size: 2rem;
+	font-size: 1.75rem;
+	color:#ffffff !important;
 }
-
+button.btn-default[title="Reply"]:hover{
+	background:#22a1d1 !important;
+	color:#071421;
+}
+button.btn-default[title="Reply"]:hover .d-icon{
+	color:#071421 !important;
+}
 
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
@@ -945,10 +952,6 @@ ul.socialLinks li + li{
 .user-preferences .static{
 	color:#ffffff;
 }
-.select-kit .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc{
-	color:#071421;
-}
-
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
 
