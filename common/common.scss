@@ -882,19 +882,19 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 	background: #22a1d1;
 	color:#071421;
 }
-.timeline-footer-controls .select-kit-collection > li .icons svg{
+ul.select-kit-collection > li .icons svg{
 	color:#22a1d1;
 }
-.timeline-footer-controls .select-kit-collection > li .texts .name{
+ul.select-kit-collection > li .texts .name{
 	color:#ffffff !important;
 }
-.timeline-footer-controls .select-kit-collection > li .texts .desc{
+ul.select-kit-collection > li .texts .desc{
 	color:#88abc2 !important;
 }
-.timeline-footer-controls .select-kit-collection > li.is-selected{
+ul.select-kit-collection > li.is-selected{
 	background: #b5dceb;
 }
-.timeline-footer-controls .select-kit-collection > li:hover .icons *, .timeline-footer-controls .select-kit-collection > li:hover .texts *, .timeline-footer-controls .select-kit-collection > li.is-selected .icons *, .timeline-footer-controls .select-kit-collection > li.is-selected .texts *, .timeline-footer-controls .select-kit-collection > li.is-highlighted .icons *, .timeline-footer-controls .select-kit-collection > li.is-highlighted .texts *{
+ul.select-kit-collection > li:hover .icons *, ul.select-kit-collection > li:hover .texts *, ul.select-kit-collection > li.is-selected .icons *, ul.select-kit-collection > li.is-selected .texts *, ul.select-kit-collection > li.is-highlighted .icons *, ul.select-kit-collection > li.is-highlighted .texts *{
 	color:#071421 !important;
 }
 
@@ -1007,7 +1007,7 @@ ul.socialLinks li + li{
 .topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href]{
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href]{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
