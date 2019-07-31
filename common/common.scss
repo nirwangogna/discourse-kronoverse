@@ -147,7 +147,7 @@ a:visited {
 	max-width: 240px;
 	min-width: 150px;
 	text-transform: none;
-	font-weight: normal;
+	font-weight: 600;
 }
 .btn.btn-primary:not(.btn-icon-text):hover{
 	background: url($btnSend) no-repeat center center;
@@ -218,7 +218,7 @@ a:visited {
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
 }
-.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts, #share-link, #d-popover, .ip-lookup .location-box, #user-card .card-content, #group-card .card-content{
+.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts, #share-link, #d-popover, .ip-lookup .location-box{
 	-webkit-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-moz-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-ms-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
@@ -950,7 +950,7 @@ ul.select-kit-collection > li:hover .icons *, ul.select-kit-collection > li:hove
 .topic-map h4, .topic-map h3{
 	color:#88abc2;
 }
-.input-prepend .add-on, .input-append .add-on, .user-stream .item, .user-stream .user-stream-item{
+.input-prepend .add-on, .input-append .add-on, .user-stream .item, .user-stream .user-stream-item, #user-card .card-content, #group-card .card-content{
 	background: #071421;
 	border-color:#0e2944;
 	color:#88abc2;
@@ -963,6 +963,17 @@ ul.select-kit-collection > li:hover .icons *, ul.select-kit-collection > li:hove
 	background: #071421;
 	border: 1px dashed #0e2944;
 }
+aside.quote .title{
+	background: #071421;
+	border: 1px dashed #0e2944;
+	color: #ffffff;
+}
+blockquote{
+	border: 1px dashed #0e2944;
+	border-left: 5px solid #88abc2;
+	background: #071421;
+}
+
 
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
@@ -1048,7 +1059,7 @@ ul.socialLinks li + li{
 .topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href], .user-theme-creator .user-theme-list ul li:hover a, .user-theme-creator .user-theme-list ul li.active a, #d-popover .locale-dates-previews .preview.current *, .pref-auth-tokens .auth-token-icon {
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href], .select-kit .d-icon, .user-theme-creator .user-theme-list ul li a, .pref-auth-tokens .auth-token-second, .cooked p span, .discourse-local-date.cooked-date .d-icon, .badge-card .badge-contents .badge-info, .user-info.medium.badge-info .granted-on, .user-info .user-detail .name, .show-badge-details .grant-info-item, .pref-auth-tokens .auth-token-second, .stats-section .label, .topic-map .participants .user .user-link, .topic-map .participants .user .group-link, .post-notice.old .d-icon, .names .fa, #user-card h3.email, #user-card h3 .desc, #user-card h3 a, #group-card h3.email, #group-card h3 .desc, #group-card h3 a{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href], .select-kit .d-icon, .user-theme-creator .user-theme-list ul li a, .pref-auth-tokens .auth-token-second, .cooked p span, .discourse-local-date.cooked-date .d-icon, .badge-card .badge-contents .badge-info, .user-info.medium.badge-info .granted-on, .user-info .user-detail .name, .show-badge-details .grant-info-item, .pref-auth-tokens .auth-token-second, .stats-section .label, .topic-map .participants .user .user-link, .topic-map .participants .user .group-link, .post-notice.old .d-icon, .names .fa, #user-card h3.email, #user-card h3 .desc, #user-card h3 a, #group-card h3.email, #group-card h3 .desc, #group-card h3 a, #user-card h3, #group-card h3, .names .new_user a, .names .user-title, .names .user-title a{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
@@ -1066,6 +1077,9 @@ div.poll .poll-container .poll-results-number-rating, .pref-auth-tokens .auth-to
 }
 #d-popover .d-popover-top-arrow:after {
 	border-color: transparent transparent #071421;
+}
+div.poll .results .bar, .post-notice.old{
+	background-color: #88abc2;
 }
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
