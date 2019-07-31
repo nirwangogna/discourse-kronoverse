@@ -69,8 +69,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
     background-color: rgba(2, 6, 17, 0.57);
 	height: 42px !important;
 	color:#ffffff;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
 }
 .d-editor-textarea-wrapper{
 	height: auto !important;
@@ -211,13 +210,14 @@ a:visited {
 }
 .d-header #site-logo{
 	max-width: 100%;
-	max-height: 100%;
+	max-height: 4rem;
 	height:auto;
+	
 }
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
 }
-.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts{
+.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts, #share-link{
 	-webkit-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-moz-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-ms-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
@@ -845,20 +845,83 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 .alert .close{
 	opacity: 1;
 }
-button.btn-default[title="Reply"]{
+#reply-control button.btn-default[title="Reply"]{
 	padding: 0 !important;
 }
-button.btn-default[title="Reply"] .d-icon{
+#reply-control button.btn-default[title="Reply"] .d-icon{
 	font-size: 1.75rem;
 	color:#ffffff !important;
 }
-button.btn-default[title="Reply"]:hover{
+#reply-control .reply-area button.btn-default[title="Reply"]:hover{
 	background:#22a1d1 !important;
 	color:#071421;
 }
-button.btn-default[title="Reply"]:hover .d-icon{
+#reply-control button.btn-default[title="Reply"]:hover .d-icon{
 	color:#071421 !important;
 }
+#reply-control button.toggle-fullscreen .d-icon, #reply-control button.toggler .d-icon{
+	color:#88abc2 !important;
+}
+.d-editor-button-bar .btn svg{
+	color:#88abc2 !important;
+}
+.d-editor-button-bar .btn:hover svg{
+	color:#071421 !important;
+}
+.d-editor-button-bar .btn[title="Options"] svg{
+	color:#071421 !important;
+}
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row{
+	background: #88abc2;
+	color:#071421;
+}
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row *{
+	color:#071421 !important;
+}
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
+	background: #22a1d1;
+	color:#071421;
+}
+.timeline-footer-controls .select-kit-collection > li .icons svg{
+	color:#22a1d1;
+}
+.timeline-footer-controls .select-kit-collection > li .texts .name{
+	color:#ffffff !important;
+}
+.timeline-footer-controls .select-kit-collection > li .texts .desc{
+	color:#88abc2 !important;
+}
+.timeline-footer-controls .select-kit-collection > li.is-selected{
+	background: #b5dceb;
+}
+.timeline-footer-controls .select-kit-collection > li:hover .icons *, .timeline-footer-controls .select-kit-collection > li:hover .texts *, .timeline-footer-controls .select-kit-collection > li.is-selected .icons *, .timeline-footer-controls .select-kit-collection > li.is-selected .texts *, .timeline-footer-controls .select-kit-collection > li.is-highlighted .icons *, .timeline-footer-controls .select-kit-collection > li.is-highlighted .texts *{
+	color:#071421 !important;
+}
+
+.topic-map{
+	background: #071421;
+	border-color:#0b2035;
+}
+.topic-map section{
+	border-color:#0b2035;
+}
+.topic-map .buttons .btn{
+	background: #22a1d1;
+	color:#071421;
+	border-color: transparent;
+}
+.topic-map .buttons .btn:hover{
+	background: #b5dceb;
+	color:#071421;
+}
+.topic-map .map .number{
+	color:#22a1d1;
+}
+.topic-map h4, .topic-map h3{
+	color:#88abc2;
+}
+
+
 
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
@@ -941,10 +1004,10 @@ ul.socialLinks li + li{
 
 
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
-.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon{
+.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href]{
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
@@ -954,6 +1017,11 @@ ul.socialLinks li + li{
 .user-preferences .static{
 	color:#ffffff;
 }
+div.poll .poll-container .poll-results-number-rating{
+	color:#22a1d1;
+}
+
+
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
 
