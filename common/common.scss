@@ -65,11 +65,13 @@ p{
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, .d-editor-textarea-wrapper, .select-kit.combo-box .select-kit-header, div.ac-wrap{
-	border:2px solid #434e6c;
-    background-color: rgba(2, 6, 17, 0.57);
+	border:2px solid #434e6c !important;
+    background-color: rgba(2, 6, 17, 0.57) !important;
 	height: 42px !important;
-	color:#ffffff;
-	font-size: 1rem;
+	color:#88abc2 !important;
+	font-size: 1rem !important;
+	padding-left:1rem !important;
+	padding-right: 1rem !important;
 }
 .d-editor-textarea-wrapper{
 	height: auto !important;
@@ -217,7 +219,7 @@ a:visited {
 .menu-panel li.category-link .badge-wrapper.bar, .menu-panel li.category-link .badge-wrapper.bullet{
 	padding: 4px 8px;
 }
-.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts, #share-link{
+.menu-panel, #reply-control, .select-kit.combo-box .select-kit-body, .select-kit.dropdown-select-box .select-kit-body, .search-container .search-advanced-sidebar .search-advanced-filters, .popup-menu, .selected-posts, #share-link, #d-popover, .ip-lookup .location-box{
 	-webkit-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-moz-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
 	-ms-box-shadow: 1px 1px 1px rgba(136,171,194,0.25);
@@ -290,7 +292,7 @@ div.menu-links-header .fa, div.menu-links-header a, .select-kit .select-kit-row 
 .user-menu .notifications li:hover, .user-menu .notifications li:focus{
 	background: #88abc2;
 }
-.select-kit .select-kit-row.is-highlighted, .select-kit .select-kit-row:hover{
+.select-kit .select-kit-row.is-highlighted, .select-kit .select-kit-row:hover, .admin-controls .nav-pills>li a.active{
 	background: #22a1d1;
 	color: #071421;
 }
@@ -427,6 +429,20 @@ div.education, .select-kit.dropdown-select-box.period-chooser .period-chooser-he
 }
 table.topic-list tr:hover .topic-list-main-link a.title, table.topic-list tr:hover .main-link a.title, table.topic-list tr:hover .latest-topic-list-item .main-link a.title, table th{
 	color: #ffffff;
+}
+tr{
+	-webkit-background: rgba(13,37,61,0.2);
+	-moz-background: rgba(13,37,61,0.2);
+	-ms-background: rgba(13,37,61,0.2);
+	-o-background: rgba(13,37,61,0.2);
+	background: rgba(13,37,61,0.2);
+}
+tr:nth-child(2n+1){
+	-webkit-background: rgba(13,37,61,0.4);
+	-moz-background: rgba(13,37,61,0.4);
+	-ms-background: rgba(13,37,61,0.4);
+	-o-background: rgba(13,37,61,0.4);
+	background: rgba(13,37,61,0.4);
 }
 tr:hover{
 	-webkit-background: rgba(13,37,61,0.8);
@@ -696,15 +712,31 @@ ol.category-breadcrumb{
     background: none;
 }
 .user-primary-navigation{
-	-webkit-background-color: rgba(2,6,17,0.57);
-    -moz-background-color: rgba(2,6,17,0.57);
-    -ms-background-color: rgba(2,6,17,0.57);
-    -o-background-color: rgba(2,6,17,0.57);
-    background-color: rgba(2,6,17,0.57);
+	background: #071421;
+	border-color:#0b2035;
 }
 .user-primary-navigation .main-nav{
 	margin-bottom: 0;
 }
+.select-kit .select-kit-body, .select-kit.multi-select{
+	background: #071421;
+	border-color:#0b2035;
+}
+.select-kit.multi-select .multi-select-header{
+	background: none;
+	border:0;
+}
+.select-kit.multi-select .choices{
+	margin: 0;
+}
+.user-stream .item, .user-stream .user-stream-item{
+	background: none;
+	border-color:0;
+}
+.user-activity-page p{
+	color:#88abc2 !important;
+}
+
 /* ~~~~~~~~ -- Admin Panel Setting -- ~~~~~~~~ */
 
 /* ~~~~~~~~ Login Modules ++ ~~~~~~~~ */
@@ -878,10 +910,6 @@ nav.post-controls button.d-hover .d-icon, nav.post-controls button:focus .d-icon
 .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row *{
 	color:#071421 !important;
 }
-.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
-	background: #22a1d1;
-	color:#071421;
-}
 ul.select-kit-collection > li .icons svg{
 	color:#22a1d1;
 }
@@ -892,15 +920,18 @@ ul.select-kit-collection > li .texts .desc{
 	color:#88abc2 !important;
 }
 ul.select-kit-collection > li.is-selected{
-	background: #b5dceb;
+	background: #b5dceb !important;
 }
 ul.select-kit-collection > li:hover .icons *, ul.select-kit-collection > li:hover .texts *, ul.select-kit-collection > li.is-selected .icons *, ul.select-kit-collection > li.is-selected .texts *, ul.select-kit-collection > li.is-highlighted .icons *, ul.select-kit-collection > li.is-highlighted .texts *{
 	color:#071421 !important;
 }
-
-.topic-map{
+.select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
+	background: #22a1d1 !important;
+	color:#071421 !important;
+}
+.topic-map, .modal .nav, .uploaded-image-preview{
 	background: #071421;
-	border-color:#0b2035;
+	border-color:#0e2944;
 }
 .topic-map section{
 	border-color:#0b2035;
@@ -920,8 +951,19 @@ ul.select-kit-collection > li:hover .icons *, ul.select-kit-collection > li:hove
 .topic-map h4, .topic-map h3{
 	color:#88abc2;
 }
-
-
+.input-prepend .add-on, .input-append .add-on, .user-stream .item, .user-stream .user-stream-item{
+	background: #071421;
+	border-color:#0e2944;
+	color:#88abc2;
+}
+.badge-card{
+	background: #071421;
+	border: 2px dashed #0e2944;
+}
+.user-badge, #user-card .sixth-row .badge-section .more-user-badges a{
+	background: #071421;
+	border: 1px dashed #0e2944;
+}
 
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
 
@@ -1004,24 +1046,28 @@ ul.socialLinks li + li{
 
 
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
-.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href]{
+.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href], .user-theme-creator .user-theme-list ul li:hover a, .user-theme-creator .user-theme-list ul li.active a, #d-popover .locale-dates-previews .preview.current *, .pref-auth-tokens .auth-token-icon {
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href]{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href], .select-kit .d-icon, .user-theme-creator .user-theme-list ul li a, .pref-auth-tokens .auth-token-second, .cooked p span, .discourse-local-date.cooked-date .d-icon, .badge-card .badge-contents .badge-info, .user-info.medium.badge-info .granted-on, .user-info .user-detail .name, .show-badge-details .grant-info-item, .pref-auth-tokens .auth-token-second, .stats-section .label{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
 	background:#22a1d1;
 	color:#071421;
 }
-.user-preferences .static{
+.user-preferences .static, .user-theme-creator .user-theme-list .user-theme-list-heading, .badge-card .badge-contents .badge-link, .user-info .user-detail .username a, section.details h1{
 	color:#ffffff;
 }
-div.poll .poll-container .poll-results-number-rating{
+div.poll .poll-container .poll-results-number-rating, .pref-auth-tokens .auth-token-icon, .badge-card .grant-count{
 	color:#22a1d1;
 }
-
-
+#d-popover .d-popover-top-arrow {
+	border-color: transparent transparent #88abc2;
+}
+#d-popover .d-popover-top-arrow:after {
+	border-color: transparent transparent #071421;
+}
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
 
