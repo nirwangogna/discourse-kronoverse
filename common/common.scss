@@ -68,7 +68,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 	border:2px solid #434e6c !important;
     background-color: rgba(2, 6, 17, 0.57) !important;
 	height: 42px !important;
-	color:#88abc2 !important;
+	color:#ffffff !important;
 	font-size: 1rem !important;
 	padding-left:1rem !important;
 	padding-right: 1rem !important;
@@ -568,7 +568,7 @@ table.topic-list .main-link .link-bottom-line{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2691e', endColorstr='#0088cc',GradientType=1 );
 }
 .category-list tbody .category h3 a[href]{
-	color:#ffffff;
+	color:#ffffff !important;
 }
 .topic-statuses .topic-status{
 	color:#22a1d1;
