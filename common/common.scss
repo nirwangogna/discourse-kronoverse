@@ -1059,13 +1059,22 @@ ul.socialLinks li + li{
 #topic-progress{
 	width: 3rem;
 	background: #b5dceb;
-	border-color:  transparent;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
 }
 #topic-progress .nums span, #topic-progress h4{
 	color:#071421;
 }
 #topic-progress .bg{
 	background: #22a1d1;
+}
+#topic-progress-wrapper .topic-admin-menu-button-container{
+	left: -60px;
 }
 
 /* ~~~~~~~~ -- Mobile Settings-- ~~~~~~~~ */
@@ -1075,17 +1084,17 @@ ul.socialLinks li + li{
 
 
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
-.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href], .user-theme-creator .user-theme-list ul li:hover a, .user-theme-creator .user-theme-list ul li.active a, #d-popover .locale-dates-previews .preview.current *, .pref-auth-tokens .auth-token-icon {
+.topic-map .map button .d-icon, .topic-map .map button:hover .d-icon, .select-kit.dropdown-select-box .select-kit-row .texts .desc, .select-kit.dropdown-select-box .select-kit-row .texts .name, .btn-danger[href], .reviewable-item .reviewable-actions .reviewable-action.delete-user[href], .reviewable-item .reviewable-actions .reviewable-action-dropdown.delete-user[href], .reviewable-akismet-post .confirm-delete[href], .reviewable-akismet-post .reject-user-delete[href], .reviewable-akismet-user .confirm-delete[href], .reviewable-akismet-user .reject-user-delete[href], .user-theme-creator .user-theme-list ul li:hover a, .user-theme-creator .user-theme-list ul li.active a, #d-popover .locale-dates-previews .preview.current *, .pref-auth-tokens .auth-token-icon, .user-menu .notifications li {
 	color:#071421;
 }
-#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href], .select-kit .d-icon, .user-theme-creator .user-theme-list ul li a, .pref-auth-tokens .auth-token-second, .cooked p span, .discourse-local-date.cooked-date .d-icon, .badge-card .badge-contents .badge-info, .user-info.medium.badge-info .granted-on, .user-info .user-detail .name, .show-badge-details .grant-info-item, .pref-auth-tokens .auth-token-second, .stats-section .label, .topic-map .participants .user .user-link, .topic-map .participants .user .group-link, .post-notice.old .d-icon, .names .fa, #user-card h3.email, #user-card h3 .desc, #user-card h3 a, #group-card h3.email, #group-card h3 .desc, #group-card h3 a, #user-card h3, #group-card h3, .names .new_user a, .names .user-title, .names .user-title a, .topic-body .reply-to-tab{
+#reply-control .save-or-cancel .cancel, .latest-topic-list-item .topic-stats, #topic-footer-buttons p, div.poll li[data-poll-option-id], .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab, .modal-header .modal-close .close, .topic-meta-data .post-info a, .timeline-container .topic-timeline .now-date, .timeline-container .topic-timeline .timeline-ago, .timeline-container .topic-timeline .start-date, .badge-posts[href], .select-kit .d-icon, .user-theme-creator .user-theme-list ul li a, .pref-auth-tokens .auth-token-second, .cooked p span, .discourse-local-date.cooked-date .d-icon, .badge-card .badge-contents .badge-info, .user-info.medium.badge-info .granted-on, .user-info .user-detail .name, .show-badge-details .grant-info-item, .pref-auth-tokens .auth-token-second, .stats-section .label, .topic-map .participants .user .user-link, .topic-map .participants .user .group-link, .post-notice.old .d-icon, .names .fa, #user-card h3.email, #user-card h3 .desc, #user-card h3 a, #group-card h3.email, #group-card h3 .desc, #group-card h3 a, #user-card h3, #group-card h3, .names .new_user a, .names .user-title, .names .user-title a, .topic-body .reply-to-tab, .user-menu .notifications .d-icon, .post-links-container ul li a[href], div.poll .poll-info, table.group-members tr td{
 	color:#88abc2;
 }
 .user-secondary-navigation .nav-stacked a.active, .user-secondary-navigation .nav-stacked a.active{
 	background:#22a1d1;
 	color:#071421;
 }
-.user-preferences .static, .user-theme-creator .user-theme-list .user-theme-list-heading, .badge-card .badge-contents .badge-link, .user-info .user-detail .username a, section.details h1, #user-card h1 a, #user-card h2 a, #group-card h1 a, #group-card h2 a{
+.user-preferences .static, .user-theme-creator .user-theme-list .user-theme-list-heading, .badge-card .badge-contents .badge-link, .user-info .user-detail .username a, section.details h1, #user-card h1 a, #user-card h2 a, #group-card h1 a, #group-card h2 a, .timeline-container.timeline-fullscreen .topic-timeline .title a{
 	color:#ffffff;
 }
 div.poll .poll-container .poll-results-number-rating, .pref-auth-tokens .auth-token-icon, .badge-card .grant-count, .value .number, .private-message-glyph, #user-card h1 .d-icon, #group-card h1 .d-icon{
@@ -1100,6 +1109,13 @@ div.poll .poll-container .poll-results-number-rating, .pref-auth-tokens .auth-to
 div.poll .results .bar, .post-notice.old{
 	background-color: #88abc2;
 }
+#reply-control.draft .composer-controls .d-icon, #reply-control.saving .composer-controls .d-icon{
+	color:#071421 !important;
+}
+.timeline-container.timeline-fullscreen{
+	background-color: #071421;
+}
+
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
 
@@ -1114,4 +1130,9 @@ div.poll .results .bar, .post-notice.old{
 	.navigation-container ol, .navigation-container ul{
 		margin-bottom: 10px;
 	}
+	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail){
+		max-width: 100%;
+	}
+	
+	
 }
