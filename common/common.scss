@@ -976,6 +976,9 @@ blockquote{
 	border-top: 0;
 	background: #071421;
 }
+.post-notice{
+	margin-bottom: 15px;
+}
 
 
 /* ~~~~~~~~ -- Inner Post Styling -- ~~~~~~~~ */
@@ -1049,13 +1052,21 @@ ul.socialLinks li + li{
 	-o-background: rgba(2,2,5,1);
 	background: rgba(2,2,5,1);
 }
-
 /* ~~~~~~~~ -- Footer -- ~~~~~~~~ */
 
-.post-notice{
-	margin-bottom: 15px;
 
+/* ~~~~~~~~ ++ Mobile Settings ++ ~~~~~~~~ */
+#topic-progress{
+	width: 3rem;
 }
+#topic-progress .bg{
+	display:none;
+}
+
+/* ~~~~~~~~ -- Mobile Settings-- ~~~~~~~~ */
+
+
+
 
 
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
