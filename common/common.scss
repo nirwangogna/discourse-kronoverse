@@ -1058,9 +1058,14 @@ ul.socialLinks li + li{
 /* ~~~~~~~~ ++ Mobile Settings ++ ~~~~~~~~ */
 #topic-progress{
 	width: 3rem;
+	background: #b5dceb;
+	border-color:  transparent;
+}
+#topic-progress .nums span, #topic-progress h4{
+	color:#071421;
 }
 #topic-progress .bg{
-	display:none;
+	background: #22a1d1;
 }
 
 /* ~~~~~~~~ -- Mobile Settings-- ~~~~~~~~ */
