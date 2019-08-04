@@ -1056,6 +1056,21 @@ ul.socialLinks li + li{
 
 
 /* ~~~~~~~~ ++ Mobile Settings ++ ~~~~~~~~ */
+@media screen and (max-width: 850px){	
+	.btn.btn-primary{
+		min-width:0 !important;
+	}	
+	button#create-topic span {
+		display: none;
+	}
+	.navigation-container ol, .navigation-container ul{
+		margin-bottom: 10px;
+	}
+	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail){
+		max-width: 100%;
+	}	
+}
+
 #topic-progress{
 	width: 3rem;
 	background: #b5dceb;
@@ -1076,11 +1091,12 @@ ul.socialLinks li + li{
 #topic-progress-wrapper .topic-admin-menu-button-container{
 	left: -60px;
 }
+#topic-progress-wrapper.docked{
+	bottom: 0 !important;
+	position: fixed !important;
+}
 
 /* ~~~~~~~~ -- Mobile Settings-- ~~~~~~~~ */
-
-
-
 
 
 /* ~~~~~~~ ++ Color Palette Styling ++ ~~~~~~~~ */
@@ -1118,21 +1134,3 @@ div.poll .results .bar, .post-notice.old{
 
 /* ~~~~~~~ -- Color Palette Styling -- ~~~~~~~~ */
 
-
-/* ~~~~~~~~ ++ Mobile responsive Setting ++ */
-@media screen and (max-width: 850px){	
-	.btn.btn-primary{
-		min-width:0 !important;
-	}	
-	button#create-topic span {
-		display: none;
-	}
-	.navigation-container ol, .navigation-container ul{
-		margin-bottom: 10px;
-	}
-	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail){
-		max-width: 100%;
-	}
-	
-	
-}
