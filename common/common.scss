@@ -137,7 +137,7 @@ a:visited {
     font-size: 1.2rem !important;
 	
 }
-.btn.btn-primary:not(.btn-icon-text){
+.btn.btn-primary:not(.btn-icon-text), .btn-primary.btn-small.login-button.btn-icon-text{
 	font-family: 'Xirod', 'Montserrat', sans-serif;
 	background: url($btnSend) no-repeat center center;
 	background-size:cover;
@@ -149,7 +149,7 @@ a:visited {
 	text-transform: none;
 	font-weight: 600;
 }
-.btn.btn-primary:not(.btn-icon-text):hover{
+.btn.btn-primary:not(.btn-icon-text):hover, .btn-primary.btn-small.login-button.btn-icon-text:hover{
 	background: url($btnSend) no-repeat center center;
 	background-size:cover;
 	color:#071421;
