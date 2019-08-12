@@ -1068,7 +1068,15 @@ ul.socialLinks li + li{
 	}
 	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail){
 		max-width: 100%;
-	}	
+	}
+	.lazyYT-container{
+		max-width: 100%;
+	}
+	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail), .topic-post article img {
+		max-width: 100%;
+		max-height: none;
+		height: auto;
+	}
 }
 
 #topic-progress{
