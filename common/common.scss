@@ -1073,9 +1073,9 @@ ul.socialLinks li + li{
 		max-width: 100%;
 	}
 	#reply-control .d-editor-preview img:not(.thumbnail), .cooked img:not(.thumbnail), .topic-post article img {
-		max-width: 100%;
-		max-height: none;
-		height: auto;
+		max-width: 100% !important;
+		max-height: none !important;
+		height: auto !important;
 	}
 }
 
